@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    function inicio(){
+        const mivariable2 = document.querySelector("li");
+        //const mivariable2 = document.getElementsByName('boton');
+        console.log(mivariable2.style);
+       //mivariable2.addEventListener("click",mostrar);
+
+    }
+    function mostrar() {
+        alert("se hizo un click");
+    }
+    window.addEventListener("load",inicio);
+</script>
+</head>
+<body>
+    <li>
+        <ul>uno</ul>
+        <ul>dos</ul>
+        <ul>tres</ul>
+    </li>
+    <button name="boton" > aceptar </button>
+</body>
+</html>

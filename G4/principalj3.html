@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/mijavascript.js">
+        
+    </script>
+</head>
+<form name="formulario" method="post" action="destino">
+    <label>*Nombre</label>
+    <!-- document.getElementById('nombre').value-->
+    <input  type="text" id="nombre" name="nombre" onkeyup="mostrar(document.getElementById('nombre').value)" value="introdusca" />
+    <p id='mip' onclick="document.getElementById('mibody').style.background='red'"> Texto a mostrar </p>
+</form>
+<body id="mibody">
+    
+</body>
+</html>

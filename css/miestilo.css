@@ -1,0 +1,35 @@
+p{
+    font-size: 30px;
+}
+/*
+
+/*por id */
+#ess3, #ess5{
+    color: rgb(19, 209, 35);
+}
+
+/*por grupo */
+/*.grupo {
+    color: rgb(240, 46, 91)
+}*/
+/* otra forma por grupo */
+p.grupo {
+    color: rgb(240, 46, 91)
+}
+
+p:nth-child(1) {
+    background-color:rgb(240, 46, 91)
+}
+p:nth-child(2) {
+  background-color: #f7fb10;
+}
+p:nth-child(3) {
+  background-color: #16a211;
+}
+p:nth-child(4) {
+   background-color: #CCCCCC;
+ }
+
+ p:last-child{
+    font-size: 150px;
+ }

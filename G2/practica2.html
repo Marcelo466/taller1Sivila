@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="practica2.js"></script>
+</head>
+<body>
+    <form id="formulario" method="get" action="destino" onsubmit="return false;">
+        <input type="number" id="lnumero" name="lnumero"/>
+        <label id="etiqueta"></label>
+        <button id="benviar" onclick="calcular(document.getElementById('lnumero').value)">aceptar</button>
+    </form>
+</body>
+</html>
