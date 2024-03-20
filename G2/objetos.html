@@ -4,28 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script >
-        function cargar() {
-            alert('dio');
-            
-            let visualizar1 = document.querySelector("section > p");
-            console.log(visualizar1);
-            let visualizar2 = document.querySelectorAll("section > p");
-            console.log(visualizar2);
-            /*mostrar el elemento dos de la lista*/
-        
-            visualizar2[1].outerText = visualizar2[1].outerText + " ENCONTRADO"
-            console.log('encontrado:'+visualizar2[1].outerText);
-
-            
-
-
-
-        }
-
-    </script>
+    
 </head>
-<body onload="cargar()">
+<body >
+    
         <section>
             <p>Elemento Uno </p>
             <p>Elemento Dos </p>
@@ -35,6 +17,7 @@
 
         </section>
     <h1> Primero</h1>
-    
+    <script src="js/objetos.js" >
+    </script>
 </body>
 </html>
