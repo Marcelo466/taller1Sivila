@@ -29,3 +29,4 @@ persona.am + " DIRECCIONES: " + persona.vdireccion[1] + "\n MASCOTA:"+
 persona.mascota.mostrar();
 alert (mensaje);
 */
+
