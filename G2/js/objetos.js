@@ -25,8 +25,22 @@ pasar.push("Pasar");
 console.log(pasar);
 */
 /* mostrar todos los elementos de la lista */
-let visualizar1 = document.querySelector("section > p");
-console.log(visualizar1);
-let visualizar2 = document.querySelectorAll("section > p");
+/*let visualizar1 = document.querySelector("section > p");
+console.log(visualizar1);*/
+/*let visualizar2 = document.querySelectorAll("section > p");
 console.log(visualizar2);
+*/
+var visualizarlista = document.querySelectorAll("ul");
+console.log(visualizarlista);
 
+console.log('tamano lista hijos:'+ visualizarlista[1].children.length);
+console.log ('tamano lista:'+visualizarlista.length);
+for (var j=0;j < visualizarlista.length;j++){
+for(var i=0; i < visualizarlista[j].children.length;i++){
+    console.log(visualizarlista[j].children[i].innerHTML);
+    
+}
+}
+// como visualizo todos los elementos de la lista
+
+// PINTAR DE COLOR ROJO LOS ELEMENTOS IMPARES DE LAS LISTA(S)
