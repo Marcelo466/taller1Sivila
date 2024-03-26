@@ -52,10 +52,10 @@ console.log(resultado);
 console.log(lista);
 console.log(typeof lista);*/
 //lista2 = document.querySelectorAll("lista1");
-lista2 = document.getElementById("lista1");
+/*lista2 = document.getElementById("lista1");
 lista2.children[1].outerText = lista2.children[1].outerText+ "ENCONTRADO \n";
 lista2.children[2].outerText = lista2.children[2].outerText+ "ENCONTRADO \n";
-
+*/
 
 /*
 console.log(lista2);
@@ -64,9 +64,28 @@ console.log("elemento:"+ typeof lista2[1])
 lista2[2].outerText = lista2[2].outerText + "ENCONTRADO";
 */
 
+/* listar todos los elementos de las listas , tomando en cuenta que no tenemos un id*/
+var listas = document.querySelectorAll("ul");
+console.log(listas);
+for (var i =0; i < listas.length; i++){
+    for (var j=0; j < listas[i].children.length; j++){
+        console.log(listas[i].children[j].innerHTML);
+    }
+}
 
 
+/* visualicen todos los elemento de la lista que sean pares y estos deben aparecer
+con un color de fondo amarillo */
 
+listas[1].children[2].style.backgroundColor='red';
 
+function aColor(rojo, verde, azul) {
+
+    const colorRGB = `rgb(${rojo}, ${verde}, ${azul})`;
+   
+    document.body.style.backgroundColor = colorRGB;
+   
+}
+aColor(192,192,192);
 
 
