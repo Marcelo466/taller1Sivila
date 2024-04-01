@@ -8,13 +8,13 @@
     }
 }
 */
-const selecionados = document.getElementsByClassName('miclase');
-//var selec = document.querySelectorAll('li');
+//const selecionados = document.getElementsByClassName('miclase');
+var selec = document.querySelectorAll('li');
 //console.log(selecionados);
 
 function mostrar(e){
 console.log(e.target.innerText);
 }
-for (const seleccionado of selecionados) {
+for (const seleccionado of selec) {
     seleccionado.addEventListener('click',mostrar)
 }
